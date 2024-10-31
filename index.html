@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Broadway&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Aesthetic font */
+            background-color: #f4f4f4; /* Light background for contrast */
+            color: #001f3f; /* Navy blue text */
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            max-width: 210mm; /* A4 width */
+            margin: auto; /* Center the CV */
+        }
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            width: 120px; /* Larger size */
+            height: 120px; /* Larger size */
+            border-radius: 50%; /* Circular image */
+            margin-right: 20px;
+            overflow: hidden;
+            border: 5px solid #001f3f; /* Optional border */
+        }
+        .profile-image img {
+            width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-family: 'Broadway', cursive; /* Broadway font for heading */
+            font-size: 2.5em;
+            margin: 0;
+            color: #001f3f; /* Navy blue */
+            text-align: right; /* Align name to the right */
+        }
+        h2 {
+            font-family: 'Broadway', cursive; /* Broadway font for subheadings */
+            color: #001f3f; /* Navy blue */
+            border-bottom: 2px solid #001f3f;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            align-items: flex-end; /* Align contact info to the right */
+        }
+        .contact-info p {
+            margin: 5px 0;
+            padding: 10px;
+            background-color: #ffffff; /* White background for terminator shapes */
+            border-radius: 15px; /* Rounded corners */
+            border: 1px solid #001f3f; /* Navy blue border */
+            display: flex;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-column, .right-column {
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .left-column {
+            width: 40%; /* Narrower column */
+        }
+        .right-column {
+            width: 58%; /* Broader column */
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #001f3f;
+            border-radius: 15px; /* Rounded corners for sections */
+            background-color: #ffffff; /* White background for sections */
+        }
+        .list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .list li {
+            margin: 5px 0;
+        }
+        .icon {
+            margin-right: 8px; /* Space between icon and text */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="profile-image">
+        <img src="https://cdn0.iconfinder.com/data/icons/business-finance-flat-7/128/1_10-512.jpg" >
+    </div>
+    <div style="flex-grow: 1;">
+        <h1>Syeda Amani Shafiq Bukhari</h1>
+    </div>
+</header>
+
+<div class="container">
+    <div class="left-column">
+        <section class="languages">
+            <h2>Languages</h2>
+            <ul class="list">
+                <li>English</li>
+                <li>Urdu</li>
+                <li>Arabic</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <ul class="list">
+                <li><strong>University:</strong> CUI, Bachelors in Computer Science (BCS), ongoing</li>
+                <li><strong>College:</strong> Your Pakistan International High School Al-Khobar, FSc.Pre-Medical, 2024</li>
+                <li><strong>School:</strong> Pakistan International School Al-Khobar, 2022</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul class="list">
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js</li>
+                <li>Python, Java</li>
+                <li>Version Control: Git</li>
+                <li>Responsive Web Design</li>
+                <li>Team work</li>
+            </ul>
+        </section>
+
+        <section class="hobbies">
+            <h2>Hobbies</h2>
+            <ul class="list">
+                <li>Sports: Football, Basketball</li>
+                <li>Food: Cooking, Exploring new cuisines</li>
+                <li>Traveling: Hiking, Cultural trips</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="right-column">
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt icon"></i>Address: 2624, St.65, Abu Bakar Block, Phase 8, Bahria Town, Rawalpindi, Pakistan</p>
+            <p><i class="fas fa-envelope icon"></i>Email: syeda.amani.bukhari@gmail.com</p>
+            <p><i class="fas fa-phone-alt icon"></i>Phone: (+92) 337-251188</p>
+        </div>
+        
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <ul class="list">
+                <li><strong>Intern Developer</strong> - Syntax Dev, Islamabad (2/2023 - 9/2023)</li>
+                <li><strong>Project:</strong> As an intern developer, I created the website layout using HTML, CSS, and JavaScript, ensuring a visually appealing and user-friendly interface. Implemented responsive design techniques using CSS Flexbox and Grid to ensure compatibility across various screen sizes. Managed project versions and collaboration using Git and GitHub, allowing for efficient tracking of changes and teamwork with peers. Deployed the website using GitHub Pages, gaining experience in hosting web applications.</li>
+                
+                <li><strong>Freelance Developer</strong> - Self-employed (5 2024 - Present)</li>
+                <li><strong>Projects:</strong> Designed personal portfolios for different clients.</li>
+                <li><strong>Technologies used:</strong> HTML: For structuring the content of the web pages. CSS: For styling and layout, ensuring a responsive and visually appealing design. JavaScript: For adding interactivity and dynamic content to the website. CSS Flexbox and Grid: For creating a responsive layout that adapts to various screen sizes. Git: For version control to track changes and manage the codebase. GitHub: For hosting the project repository and facilitating collaboration. GitHub Pages: For deploying the website and making it accessible online.</li>
+                <li><strong>Responsibilities:</strong> Client communication, Project management, etc.</li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>
